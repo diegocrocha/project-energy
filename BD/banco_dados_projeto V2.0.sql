@@ -2,31 +2,32 @@ create database 7_energy;
 
 use 7_energy;
 
-create table Empresas ( 
-	CNPJ char(14) primary key,
-    Empresa varchar(40),
-    Email varchar(40),
-    Senha varchar(16)
+create table dado_empresas ( 
+	cnpj char(14) primary key,
+    empresa varchar(40),
+    email varchar(40),
+    senha varchar(16)
     );
 
-Create table Login_secundario (
-	CNPJ char(14) primary key,
+Create table login_secundario (
+	cnpj char(14) primary key,
+    Login varchar(20),
     Senha varchar(16)
 );
 
 Create table setores (
 	id_setor int primary key,
     setor varchar(40),
-    id_arduinos int,
+    id_arduino int,
     Lumen_padrao int,
-    CNPJ int
+    cnpj int
 );
 
 create table arduinos (
 	id_arduino int primary key,
     dma char(8),
-    Hora char(4),
-    wattz int,
+    hora char(4),
+    watts int,
     setor int
 );
 
@@ -39,3 +40,4 @@ create table registro_arduino (
     watts int,
     id_arduino int
 );
+
