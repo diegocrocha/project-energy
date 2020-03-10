@@ -1,14 +1,15 @@
-Sequência de apresentação:
-1. Apresentação do grupo/empresa e integrantes; -
-2. Qual segmento/mercado será tratado na apresentação;
+SequÃªncia de apresentaÃ§Ã£o:
+1. ApresentaÃ§Ã£o do grupo/empresa e integrantes; -
+2. Qual segmento/mercado serÃ¡ tratado na apresentaÃ§Ã£o;
 3. Contexto;
 4. Desafio / Problema;
-5. Solução / Proposta;
-6. Desenho de solução - Como funcionará a solução (foco no negócio - não é técnico)
+5. SoluÃ§Ã£o / Proposta;
+6. Desenho de soluÃ§Ã£o - Como funcionarÃ¡ a soluÃ§Ã£o (foco no negÃ³cio - nÃ£o Ã© tÃ©cnico)
 7. Principais requisitos / Backlog;
-8. Protótipo do site institucional - explicar em detalhes o porquê de cada elemento da página
-9. Simulador Financeiro - mostrar e explicar o código
+8. ProtÃ³tipo do site institucional - explicar em detalhes o porquÃª de cada elemento da pÃ¡gina
+9. Simulador Financeiro - mostrar e explicar o cÃ³digo
 10. Tabelas / Modelo de dados / Abrir MySQL executar inserts, selects e deletes (sem cola/roteiro)
-11. Demonstração do Arduíno - abrir e explicar código Arduíno;
-12. Mostrar os arquivos do Projeto no Git - conectar no git do grupo, baixar e mostrar uma alteração 
+11. DemonstraÃ§Ã£o do ArduÃ­no - abrir e explicar cÃ³digo ArduÃ­no;
+12. Mostrar os arquivos do Projeto no Git - conectar no git do grupo, baixar e mostrar uma alteraÃ§Ã£o 
 local enviada para o servidor remoto.
+svytsfyt
