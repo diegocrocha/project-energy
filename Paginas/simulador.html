@@ -7,27 +7,35 @@
     <link rel="stylesheet" href="styleSimulador.css">
 </head>
 <body>
+    
     <input id="nome_empresa" placeholder="Nome da empresa"><br> 
     <input id="numero_lampada" placeholder="Nº de lâmpadas"><br> 
     <button onclick="calcular_media()">Calcular</button>
     <div id="div_resultado"></div>
+    <link rel="stylesheet" href="styleCalc.css">
+
+    
 </body>
 </html>
 <script>
-function calcular_media() {
-    var calc_watt = Number(numero_lampada.value) * 40;
-    var conv_watthr = Number(calc_watt) / 1000;
-    var gasto_proj = Number(conv_watthr) * 25/100;
-    var gasto_final = conv_watthr - gasto_proj;
-    var valor_reais = Number(gasto_final) * 0.516;
-    var calc_gasto = Number(conv_watthr) * 0.516;
-    var calc_dia = Number(conv_watthr) * 18;
-    var calc_mes = Number(calc_dia) * 30;
-    var calc_ano = Number(calc_mes) * 12;
-    var calc_dia_proj = Number(gasto_final) * 18;
-    var calc_mes_proj = Number (calc_dia_proj) * 30;
-    var calc_ano_proj = Number (calc_mes_proj) * 12;
 
-    div_resultado.innerHTML = `A ${nome_empresa.value} gasta R$:${calc_mes},00 por mês (R$:${calc_ano},00 por ano) e com o projeto passará a gastar R$:${calc_mes_proj},00 por mês (R$:${calc_ano_proj},00 por ano)`;
+function calcular_media() {
+
+    var calc_watts = Number(numero_lampada.value) * 40;
+    var calc_kwatts = calc_watts / 1000;
+
+    var calc_dia = calc_kwatts * 24;
+    var calc_mes = calc_dia * 30;
+    var calc_ano = calc_mes * 12;
+
+    var valor_mes = calc_mes * 0.516;
+    var valor_ano = calc_ano * 0.516;
+
+    var desc_mes = valor_mes * 0.75;
+    var desc_ano = valor_ano * 0.75;
+
+    div_resultado.innerHTML = `<span style="color: white;"> A ${nome_empresa.value} gasta R$:${calc_mes},00 por mês (R$:${calc_ano},00 por ano).<br>
+                                                        Com o nosso projeto passará a 
+                                                        gastar R$:${desc_mes},00 por mês (R$:${desc_ano},00 por ano)</span>`;
 }
 </script>
