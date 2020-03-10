@@ -1,6 +1,6 @@
-create database 7_energy;
+create database energy_solution;
 
-use 7_energy;
+use energy_solution;
 
 create table dado_empresas ( 
 	cnpj char(14) primary key,
