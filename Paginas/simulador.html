@@ -34,8 +34,8 @@ function calcular_media() {
     var desc_mes = valor_mes * 0.75;
     var desc_ano = valor_ano * 0.75;
 
-    div_resultado.innerHTML = `<span style="color: white;"> A ${nome_empresa.value} gasta R$:${calc_mes},00 por mês (R$:${calc_ano},00 por ano).<br>
+    div_resultado.innerHTML = `<span style="color: white;"> A empresa: ${nome_empresa.value} gasta R$: ${valor_mes.toFixed(2)} por mês (R$: ${valor_ano.toFixed(2)} por ano).<br>
                                                         Com o nosso projeto passará a 
-                                                        gastar R$:${desc_mes},00 por mês (R$:${desc_ano},00 por ano)</span>`;
+                                                        gastar R$: ${desc_mes.toFixed(2)} por mês (R$: ${desc_ano.toFixed(2)} por ano)</span>`;
 }
 </script>

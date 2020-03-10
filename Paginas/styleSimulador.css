@@ -1,11 +1,9 @@
 body {
    background-image: url("logo.png");
    background-repeat: no-repeat;
-   background-position: center center;
-  
+   background-position: center center;  
    background-size: auto;
    background-attachment: fixed;
+   background-color: black;
 }
 
-#div_resultado {
-margin-top: 200px;}
