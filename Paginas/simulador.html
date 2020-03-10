@@ -10,9 +10,9 @@
     
     <input id="nome_empresa" placeholder="Nome da empresa"><br> 
     <input id="numero_lampada" placeholder="Nº de lâmpadas"><br> 
+    <input id="h_funcionamento" placeholder="Horario de funcionamento"> <br>
     <button onclick="calcular_media()">Calcular</button>
     <div id="div_resultado"></div>
-    <link rel="stylesheet" href="styleCalc.css">
 
     
 </body>
@@ -24,7 +24,7 @@ function calcular_media() {
     var calc_watts = Number(numero_lampada.value) * 40;
     var calc_kwatts = calc_watts / 1000;
 
-    var calc_dia = calc_kwatts * 24;
+    var calc_dia = calc_kwatts * Number(h_funcionamento.value);
     var calc_mes = calc_dia * 30;
     var calc_ano = calc_mes * 12;
 
@@ -35,7 +35,7 @@ function calcular_media() {
     var desc_ano = valor_ano * 0.75;
 
     div_resultado.innerHTML = `<span style="color: white;"> A empresa: ${nome_empresa.value} gasta R$: ${valor_mes.toFixed(2)} por mês (R$: ${valor_ano.toFixed(2)} por ano).<br>
-                                                        Com o nosso projeto passará a 
-                                                        gastar R$: ${desc_mes.toFixed(2)} por mês (R$: ${desc_ano.toFixed(2)} por ano)</span>`;
+                                                        Com o nosso projeto a empresa poderá 
+                                                        gastar R$: ${desc_mes.toFixed(2)} (até 25% de economia) por mês, e (R$: ${desc_ano.toFixed(2)} por ano)</span>`;
 }
 </script>

@@ -1,17 +1,28 @@
-	Ramo de atuaçao:
+ -- Ramo de atuaçao:
  Somos uma empresa que busca soluções inovadoras, utilizando tecnologia de controle de luminosidade para melhorar o desempenho de consumo, visando a sustentabilidade.
 
+-- Contexto:
 
-	Impacto econômico: 
-Fizemos uma pesquisa sobre consumo de lâmpadas de leds, o projeto visa em diminuir em aproximadamente 30% o consumo de luz dependendo da estrutura
-do shopping/prédio, ou seja, quanto mais há luz natural entrando, maior será a economia.
+Impacto ambiental: 
+No Brasil mais de 80% da energia gerada vem de usinas hidroelétricas, sua contruçao causa uma devastação da aréa, grande desmatamento, mata de animais alem do alto 
+investimento financeito, como nosso projeto diminui o uso de energica eletrica atrasves da reduçao de luminosidade ele evita a necessidade de futuras hidroeletricas.
 
-	Impacto ambiental: 
-Mais de 80% da energia gerada no Brasil vem de usinas hidroelétricas. Essa energia é gerada pela correnteza dos rios, que faz girar turbinas 
-instaladas em quedas d’água.
-     O grande problema ambiental – e também social – causado pelas hidroelétricas é a necessidade de represar os rios. Vastas regiões são alagadas, o que provoca não 
-só a retirada das populações humanas do local, como alterações no ecossistema. (Portal de notícias G1)
 
-	Impacto social: 
-Um dos objetivos do projeto é o usuário administrar a própria energia, assim o cliente pode escolher a melhor faixa no contrato com a concessionaria 
-de energia elétrica, incentivando também construções que aproveitam melhor essa luz natural.
+Impacto econômico: 
+Muitas vezes os estabelecimentos deixam as luzes ligadas durante todo seu horario de funcionamento, mesmo quando há luz natural que pode ser aproveitada, gerando um 
+desperdicio de recursos naturais e financeiros.
+
+-- Qual o nosso desafio?
+
+Como o objetivo de toda empresa é gerar lucro cada custo é relevante, nosso projeto visa a diminuição de custos e também com que a empresa auxilie na
+sustentabilidade do meio ambiente.
+
+-- Proposta
+
+Nossa proposta consiste em colocar sensores de luminosade em locais com boa iluminação natural, os sensores iram captar informaçoes de luz do ambiente e armazena-las 
+em um banco de dados registrando a quantidade de luz local, com isto o nosso sistema irá regular as luzes artificiais diminuindo ou aumentando dependendo da luz natural
+que houver no ambiente.
+
+
+
+
