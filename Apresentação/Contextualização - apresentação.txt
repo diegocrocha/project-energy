@@ -23,6 +23,11 @@ Nossa proposta consiste em colocar sensores de luminosade em locais com boa ilum
 em um banco de dados registrando a quantidade de luz local, com isto o nosso sistema irá regular as luzes artificiais diminuindo ou aumentando dependendo da luz natural
 que houver no ambiente.
 
+-- Simulador
+
+Utilizando nosso prédio como exemplo e considerando uma economia de 25% de luz no mês, considerando um total de 616 lampadas ( 1 arduino a cada 4 lampadas), calculamos
+um valor inicial de R$ 27,300.00 (R$ 150.00 por arduino) mais 30% da economia mensal como mensalidade para gerenciamento e manutenção de sistema.
+
 
 
 
