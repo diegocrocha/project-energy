@@ -4,17 +4,17 @@
 -- Contexto:
 
 Impacto ambiental: 
-No Brasil mais de 80% da energia gerada vem de usinas hidroelétricas, sua contruçao causa uma devastação da aréa, grande desmatamento, mata de animais alem do alto 
-investimento financeito, como nosso projeto diminui o uso de energica eletrica atrasves da reduçao de luminosidade ele evita a necessidade de futuras hidroeletricas.
+No Brasil mais de 80% da energia gerada vem de usinas hidroelétricas, sua contruçao causa uma devastação da área, grande desmatamento, morte animais alem do alto 
+investimento financeiro, como nosso projeto diminui o uso de energia elétrica atravez da reduçao de luminosidade. Evita a necessidade de futuras hidroeletricas.
 
 
 Impacto econômico: 
-Muitas vezes os estabelecimentos deixam as luzes ligadas durante todo seu horario de funcionamento, mesmo quando há luz natural que pode ser aproveitada, gerando um 
+Muitas vezes os estabelecimentos deixam as luzes ligadas durante todo seu horario de funcionamento, mesmo quando há luz natural, que pode ser aproveitada gerando um 
 desperdicio de recursos naturais e financeiros.
 
 -- Qual o nosso desafio?
 
-Como o objetivo de toda empresa é gerar lucro cada custo é relevante, nosso projeto visa a diminuição de custos e também com que a empresa auxilie na
+Como o objetivo de toda empresa é gerar lucro, cada custo é relevante. Nosso projeto visa a diminuição de custos e também faz a empresa contribuir na
 sustentabilidade do meio ambiente.
 
 -- Proposta
