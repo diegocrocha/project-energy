@@ -25,8 +25,16 @@ que houver no ambiente.
 
 -- Simulador
 
-Utilizando nosso prédio como exemplo e considerando uma economia de 25% de luz no mês, considerando um total de 616 lampadas ( 1 arduino a cada 4 lampadas), calculamos
-um valor inicial de R$ 27,300.00 (R$ 150.00 por arduino) mais 30% da economia mensal como mensalidade para gerenciamento e manutenção de sistema.
+Utilizando o prédio da Bandtec como exemplo e considerando uma economia de 25% de luz no mês, considerando um total de 616 lampadas (1 arduino a cada 4 lampadas), 
+calculamos um valor inicial de R$ 27,300.00 (R$ 150.00 por arduino * 154 = 23,100.00) mais 30% da economia mensal como mensalidade (13,731,38 * 0,3 = 4.119,41 arrendodando 
+para 4.200,00) para gerenciamento e manutenção de sistema. Logo em média levará 3 anos para haver um retorno do investimento.
+
+
+        (GASTO)    (ECONOMIA)		
+	27,300 --- 13,731,38   	1 ano	
+	31,500 --- 27.462,76	2 ano
+	35,700 --- 40.834,14	3 ano
+	
 
 
 
