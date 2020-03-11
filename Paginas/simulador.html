@@ -31,8 +31,8 @@ function calcular_media() {
     var valor_mes = calc_mes * 0.516;
     var valor_ano = calc_ano * 0.516;
 
-    var desc_mes = valor_mes * 0.75;
-    var desc_ano = valor_ano * 0.75;
+    var desc_mes = valor_mes * 0.25;
+    var desc_ano = valor_ano * 0.25;
 
     div_resultado.innerHTML = `<span style="color: white;"> A empresa: ${nome_empresa.value} gasta R$: ${valor_mes.toFixed(2)} por mês (R$: ${valor_ano.toFixed(2)} por ano).<br>
                                                         Com o nosso projeto a empresa poderá 
