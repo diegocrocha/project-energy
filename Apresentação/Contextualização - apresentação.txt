@@ -1,7 +1,7 @@
- -- Ramo de atuaçao:
+ -- Ramo de atuaçao:       ATHIRSON
  Somos uma empresa que busca soluções inovadoras, utilizando tecnologia de controle de luminosidade para melhorar o desempenho de consumo, visando a sustentabilidade.
 
--- Contexto:
+-- Contexto:       GUILHERME
 
 Impacto ambiental: 
 No Brasil mais de 80% da energia gerada vem de usinas hidroelétricas, sua contruçao causa uma devastação da área, grande desmatamento, morte animais alem do alto 
@@ -12,18 +12,25 @@ Impacto econômico:
 Muitas vezes os estabelecimentos deixam as luzes ligadas durante todo seu horario de funcionamento, mesmo quando há luz natural, que pode ser aproveitada gerando um 
 desperdicio de recursos naturais e financeiros.
 
--- Qual o nosso desafio?
+-- Qual o nosso desafio?      FERNANDO
 
 Como o objetivo de toda empresa é gerar lucro, cada custo é relevante. Nosso projeto visa a diminuição de custos e também faz a empresa contribuir na
 sustentabilidade do meio ambiente.
 
--- Proposta
+-- Proposta        DIEGO
 
 Nossa proposta consiste em colocar sensores de luminosade em locais com boa iluminação natural, os sensores iram captar informaçoes de luz do ambiente e armazena-las 
 em um banco de dados registrando a quantidade de luz local, com isto o nosso sistema irá regular as luzes artificiais diminuindo ou aumentando dependendo da luz natural
 que houver no ambiente.
 
--- Simulador
+
+-- Diagrama       ATHIRSON
+
+
+-- Site            GABRIEL
+
+
+-- Simulador       VITOR   
 
 Utilizando o prédio da Bandtec como exemplo e considerando uma economia de 25% de luz no mês, considerando um total de 616 lampadas (1 arduino a cada 4 lampadas), 
 calculamos um valor inicial de R$ 27,300.00 (R$ 150.00 por arduino * 154 = 23,100.00) mais 30% da economia mensal como mensalidade (13,731,38 * 0,3 = 4.119,41 arrendodando 
@@ -34,6 +41,17 @@ para 4.200,00) para gerenciamento e manutenção de sistema. Logo em média levará 
 	27,300 --- 13,731,38   	1 ano	
 	31,500 --- 27.462,76	2 ano
 	35,700 --- 40.834,14	3 ano
+'
+-- Quanto custa      EWERTON
+
+-- Diagrama          VITOR
+
+-- Backlog           EWERTON
+
+
+
+
+
 	
 
 
